@@ -72,15 +72,6 @@ if __name__ == "__main__":
                 speak("Sorry, I couldn't find any relevant information.")
             speak("Anything else I can help you with, sir?")
 
-        elif "something" in query:
-            speak("Druvi, you need to sleep. You are not in a good condition, and you are a sweet little sister.")
-            speak("Anything else I can help you with, sir?")
-
-        elif "mum" in query:
-            speak("Hello ma'am, my name is Friday. Nice to meet you. I'm a personalized AI assistant created by your son.")
-            speak("By the way ma'am, you are looking so beautiful!")
-            speak("Anything else I can help you with, sir?")
-
         elif "time" in query:
             speak(f"Sir, the time is {get_time()}")
             speak("Anything else I can help you with, sir?")
