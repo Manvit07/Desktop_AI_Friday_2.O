@@ -52,7 +52,6 @@ def take_command():
 if __name__ == "__main__":
     wish_me()
     sites = ["https://www.youtube.com/", "https://www.youtube.com/watch?v=YR12Z8f1Dh8&list=PLb0Wdm54HWRx0Itb6yWfuDxMn2AXozmfS",
-             "https://mail.google.com/mail/u/0/#all", "https://learning.dypiu.ac.in/login/index.php",
              "https://mail.google.com/mail/u/0/#inbox", "https://chat.openai.com/", 'E:\my songs',
              "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"]
     
@@ -116,22 +115,11 @@ if __name__ == "__main__":
             speak("Here you go sir.")
             speak("Anything else I can help you with, sir?")
 
-        elif 'open moodle' in query:
-            speak("OK, just a second sir...")
-            webbrowser.open_new(sites[3])
-            speak("Got it.")
-            speak("Anything else I can help you with, sir?")
-         
-        elif 'college mailbox' in query:
-            speak("Just a second...")
-            webbrowser.open_new_tab(sites[4])
-            speak("Here you go sir.")
-            speak("Anything else I can help you with, sir?")
             
         elif "open chat gpt" in query:
             speak("OK sir, just a second...")
             speak("By the way, I don't like that chat GPT...")
-            webbrowser.open_new(sites[5])
+            webbrowser.open_new(sites[3])
             speak("Here it is.")
             speak("Anything else I can help you with, sir?")
         
