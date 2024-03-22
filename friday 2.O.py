@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
         elif "music" in query:
             speak("All right boss...")
-            music_dir = sites[6]
+            music_dir = sites[4]
             songs = os.listdir(music_dir)
             os.startfile(os.path.join(music_dir, songs[0]))
             speak("Here are some of your most liked songs.")
@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
         elif 'open google' in query:
             speak("OK sir...")
-            path = sites[7]
+            path = sites[5]
             os.startfile(path)
             speak("Here you go sir.")
             speak("Anything else I can help you with, sir?")
