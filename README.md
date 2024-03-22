@@ -40,8 +40,4 @@ Open an issue or submit a pull request on GitHub to contribute to the developmen
 
 ## Credits
 
-Friday 2.0 is developed and maintained by [Your Name]. We extend our gratitude to the developers of the libraries and technologies that power this project.
-
-## License
-
-Friday 2.0 is licensed under the [MIT License](LICENSE). Feel free to modify and distribute it according to your needs.
+Friday 2.0 is developed and maintained by Manvit.M.Deshmukh. We extend our gratitude to the developers of the libraries and technologies that power this project.
