@@ -107,7 +107,7 @@ if __name__ == "__main__":
             path = sites[5]
             os.startfile(path)
             speak("Here you go sir.")
-            speak("Anything else I can help you wsiahfo;with, sir?")
+            speak("Anything else I can help you with, sir?")
         
         elif 'mailbox' in query:
             speak("Just a second boss...")
