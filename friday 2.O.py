@@ -52,8 +52,8 @@ def take_command():
 if __name__ == "__main__":
     wish_me()
     sites = ["https://www.youtube.com/", "https://www.youtube.com/watch?v=YR12Z8f1Dh8&list=PLb0Wdm54HWRx0Itb6yWfuDxMn2AXozmfS",
-             "https://mail.google.com/mail/u/0/#inbox", "https://chat.openai.com/", 'E:\my songs',
-             "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"]
+             "https://mail.google.com/mail/u/0/#inbox", "https://chat.openai.com/", r'F:\my songs',
+             r"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"]
     
     while True:
         query = take_command()
